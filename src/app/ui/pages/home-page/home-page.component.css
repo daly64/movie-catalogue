@@ -1,0 +1,56 @@
+div {
+  --background-color: #e0e0e0;
+  --primary-color: #6200ee;
+  --white-color: #ffffff;
+  --gray-color: #5d5b5b;
+
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100dvh;
+  width: 100dvw;
+
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-color);
+
+  logo {
+    margin-bottom: 5px;
+  }
+  h1 {
+    font-size: xx-large;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: large;
+    margin: 10px;
+    font-weight: 200;
+  }
+  span {
+    font-size: 1.07rem;
+  }
+
+  section {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    margin: 10px;
+    min-width: 22dvw;
+    max-width: 11dvw;
+    background-color: var(--white-color);
+    border-radius: 36px;
+    color: var(--primary-color);
+    &:active {
+      background-color: var(--primary-color);
+      color: var(--white-color);
+    }
+  }
+}
