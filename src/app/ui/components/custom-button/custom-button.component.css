@@ -1,0 +1,16 @@
+div{
+    --primary-color: #6200ee;
+--white-color: #ffffff;
+button {
+    margin: 10px;
+    min-width: 22dvw;
+    max-width: 11dvw;
+    background-color: var(--white-color);
+    border-radius: 36px;
+    color: var(--primary-color);
+    &:active {
+      background-color: var(--primary-color);
+      color: var(--white-color);
+    }
+  }
+}

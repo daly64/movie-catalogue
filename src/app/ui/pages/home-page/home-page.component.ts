@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { MatButtonModule } from '@angular/material/button';
 import { Logo } from '../../components/logo/logo.component';
+import { CustomButton } from '../../components/custom-button/custom-button.component';
 @Component({
   selector: 'home-page',
   standalone: true,
-  imports: [MatButtonModule, Logo],
+  imports: [ Logo,CustomButton],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css',
 })
