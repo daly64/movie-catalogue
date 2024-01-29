@@ -29,16 +29,4 @@
   }
   
   
-
-  button.login-btn {
-    margin: 10px;
-    width: 245px;
-    background-color: var(--white-color);
-    border-radius: 10px;
-    color: var(--primary-color);
-    &:active {
-      background-color: var(--primary-color);
-      color: var(--white-color);
-    }
-  }
 }
